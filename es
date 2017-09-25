@@ -22,7 +22,7 @@ xkb_symbols "basic" {
     key <TLDE>	{ [ masculine, ordfeminine,    backslash,   backslash ]	};
 
     key <BKSL>	{ [  ccedilla,   Ccedilla,   braceright,   dead_breve ]	};
-
+    modifier_map Mod3   { Scroll_Lock };
     include "level3(ralt_switch)"
 };
 
